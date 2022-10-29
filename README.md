@@ -39,22 +39,22 @@ getgenv().Aimbot.FOVSettings = {
 ### Body Part Settings Name
 You can copy the Character parts name
 and change as you want:
-- Head
+- "Head"
 The head BodyPart.
 
-- Torso
+- "Torso"
 The torso BodyPart.
 
-- LeftArm
+- "LeftArm"
 The left arm BodyPart.
 
-- RightArm	
+- "RightArm"
 The right arm BodyPart.
 
-- LeftLeg
+- "LeftLeg"
 The left leg BodyPart.
 
--RightLeg
+- "RightLeg"
 The right leg BodyPart.
 ## Script
 ### Default Version
