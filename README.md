@@ -19,7 +19,7 @@ getgenv().Aimbot.Settings = {
     Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
     ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
     ThirdPersonSensitivity = 3, -- Boundary: 0.1 - 5
-    TriggerKey = "MouseButton2",
+    TriggerKey = "E",
     Toggle = false,
     LockPart = "Head" -- Body part to lock on (Character part's name)
 }
@@ -55,7 +55,7 @@ getgenv().Aimbot.Settings = {
     Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
     ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
     ThirdPersonSensitivity = 3, -- Boundary: 0.1 - 5
-    TriggerKey = "MouseButton2",
+    TriggerKey = "E",
     Toggle = false,
     LockPart = "Head" -- Body part to lock on (Character part's name)
 }
@@ -70,4 +70,5 @@ getgenv().Aimbot.FOVSettings = {
     Sides = 60,
     Thickness = 1,
     Filled = false
+}
 ```
