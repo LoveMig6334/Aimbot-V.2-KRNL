@@ -36,6 +36,24 @@ getgenv().Aimbot.FOVSettings = {
     Filled = false
 }
 ```
+### Body Part Settings Name
+-Head
+The head BodyPart.
+
+-Torso
+The torso BodyPart.
+
+-LeftArm
+The left arm BodyPart.
+
+-RightArm	
+The right arm BodyPart.
+
+-LeftLeg
+The left leg BodyPart.
+
+-RightLeg
+The right leg BodyPart.
 ## Script
 ### Default Version
 ```lua
