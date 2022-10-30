@@ -82,6 +82,15 @@ getgenv().Aimbot.Functions:Restart()
 ```lua
 getgenv().Aimbot.Functions:ResetSettings()
 ```
+## Hotkey
+If you want to change the key you want to press to trigger the Aimbot, configure the ***TriggerKey*** setting.
+- *Examples* :
+```lua
+getgenv().Aimbot.Settings.TriggerKey = "E" -- E is the key's name (This is equivalent to Enum.KeyCode.E, except, the script only handles strings)
+```
+```lua
+getgenv().Aimbot.Settings.TriggerKey = "MouseButton1" -- MouseButton1 is the key's name [LMB] (This is equivalent to Enum.UserInputType.MouseButton1, except, the script only handles strings)
+```
 ## Script
 ### Default Version
 ```lua
