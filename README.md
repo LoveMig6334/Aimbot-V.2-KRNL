@@ -56,6 +56,32 @@ The left leg BodyPart.
 
 - `RightLeg`
 The right leg BodyPart.
+## Functions
+This script includes built-in functions to control the Aimbot.
+The functions can be accessed by indexing **Functions** in the Environment. Example:
+```lua
+getgenv().Aimbot.Functions
+```
+### Their purposes
+* `Functions:Exit()`
+  - Exits (unexecutes) the script and leaves no traces back.
+* `Functions:Restart()`
+  - Restarts the script, good for incase the script starts lagging.
+* `Functions:ResetSettings()`
+  - Factory resets the settings and wipes the previous ones that were saved to the workspace.
+
+- Exit
+```lua
+getgenv().Aimbot.Functions:Exit()
+```
+- Restart
+```lua
+getgenv().Aimbot.Functions:Restart()
+```
+- Reset Settings
+```lua
+getgenv().Aimbot.Functions:ResetSettings()
+```
 ## Script
 ### Default Version
 ```lua
